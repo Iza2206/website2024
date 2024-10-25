@@ -1,0 +1,111 @@
+/* Dropdown Level 2 */
+.main-menu .nav.menu > li > ul.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 200px;
+    z-index: 1000;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Slight move down effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Dropdown Level 3 */
+.main-menu .nav.menu .has-dropdown-side ul.dropdown-side {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Align to the right side of the parent */
+    margin-left: -1px; /* Slight adjustment to bring it closer */
+    background: #fff; /* White background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 200px;
+    z-index: 1000;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px); /* Slight move down effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Dropdown Level 3 Links */
+.main-menu .nav.menu .has-dropdown-side ul.dropdown-side li a {
+    color: #000; /* Black text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effect for Dropdown Level 3 Links */
+.main-menu .nav.menu .has-dropdown-side ul.dropdown-side li a:hover {
+    color: #007bff; /* Blue text on hover */
+    background: #f7f7f7; /* Light grey background on hover */
+    border-radius: 5px;
+}
+
+/* Show Dropdowns on Hover */
+.main-menu .nav.menu > li:hover > ul.dropdown,
+.main-menu .nav.menu .has-dropdown-side:hover > ul.dropdown-side {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* No movement when fully visible */
+}
+
+/* General Menu Link Styles */
+.main-menu .nav.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px; /* Kurangi padding untuk mengurangi jarak antar menu */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Hover Effects for Main Menu Links */
+.main-menu .nav.menu li a:hover {
+    background: #f7f7f7;
+    color: #007bff;
+    border-radius: 5px;
+}
+.kamar-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.kamar-header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kamar-detail .kamar-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.kamar-detail .kamar-item:last-child {
+    border-bottom: none;
+}
+
+.kamar-detail span {
+    font-size: 16px;
+}
+
+.kamar-detail span:last-child {
+    font-weight: bold;
+}
+.form-select {
+    width: 100%;
+    max-width: 300px;
+}

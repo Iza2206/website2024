@@ -1,0 +1,40 @@
+
+    .custom-modal-bg {
+        background-color: #000; /* Warna latar belakang hitam */
+        color: #fff; /* Warna teks putih untuk kontras */
+    }
+    .custom-modal-bg .form-control {
+        background-color: #333; /* Warna input field lebih gelap */
+        color: #fff; /* Warna teks dalam input field putih */
+        border: 1px solid #555; /* Border input field */
+    }
+    .custom-modal-bg .form-control::placeholder {
+        color: #ccc; /* Warna placeholder */
+    }
+    .custom-modal-bg .modal-header,
+    .custom-modal-bg .modal-footer {
+        border-color: #444; /* Warna border header dan footer modal */
+    }
+    .custom-modal-bg .close {
+        color: #fff; /* Warna ikon close putih */
+        opacity: 1;
+    }
+    .custom-modal-bg .close:hover {
+        color: #ccc; /* Warna ikon close saat hover */
+    }
+    .custom-modal-bg .btn-secondary {
+        background-color: #555;
+        border-color: #555;
+    }
+    .custom-modal-bg .btn-secondary:hover {
+        background-color: #666;
+        border-color: #666;
+    }
+    .custom-modal-bg .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .custom-modal-bg .btn-primary:hover {
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
